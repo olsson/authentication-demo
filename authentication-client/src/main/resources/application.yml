@@ -1,0 +1,11 @@
+cli:
+  oauth2:
+    access-uri: http://localhost:8080
+    client-id: authentication_client_1
+    client-secret: 1234
+    grant_type: password
+logging:
+  level:
+    org.springframework: 'ERROR'
+    se.mrpeachum: 'OFF'
+
